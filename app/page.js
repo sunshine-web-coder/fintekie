@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <div>
       <HomeBanner />
-      <section className="mt-[64px] md:mt-[100px]">
+      <section className="mt-[130px] sm:mt-[64px] md:mt-[100px]">
         <div className="inner_section flex h-[115.07px] flex-col items-center justify-center gap-[45px] md:gap-[60px]">
-          <div className={`text-base font-semibold text-stone-950 ${inter.className}`}>
+          <div className={`text-base text-center font-semibold text-stone-950 ${inter.className}`}>
             Used by the world&apos;s most innovative companies
           </div>
           <div className="flex w-full flex-wrap gap-5 items-center justify-between px-10">

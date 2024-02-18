@@ -63,13 +63,13 @@ export default function Footer() {
             <p className="text-[16px] text-[#344054] w-[312px]">
               Join our newsletter to stay up to date on features and releases.
             </p>
-            <form className="flex items-center justify-between gap-2">
+            <form className="flex items-center justify-start sm:justify-between gap-2">
               <input
                 type="text"
                 placeholder="Email address"
                 className="W-[238px] h-[49px] rounded-[6px] border p-3"
               />
-              <button className="h-[49px] w-[136px] rounded-[10px] bg-[#446D9B] text-[16px] text-[#F7F7F7]">
+              <button className="h-[49px] w-[100px] sm:w-[136px] rounded-[10px] bg-[#446D9B] text-[16px] text-[#F7F7F7]">
                 Subscribe
               </button>
             </form>
