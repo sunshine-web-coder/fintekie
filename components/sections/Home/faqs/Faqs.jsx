@@ -64,7 +64,7 @@ export default function Faqs() {
                 </span>
               </div>
               {openIndex === index && (
-                <div className="p-4">
+                <div className="pl-0 p-4">
                   <p>{item.content}</p>
                 </div>
               )}
