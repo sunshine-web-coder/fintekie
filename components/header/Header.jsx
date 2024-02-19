@@ -46,13 +46,13 @@ export default function Header() {
         </div>
         <nav className={`flex absolute top-[50px] md:top-0 bg-white md:p-0 p-[16px] left-[-100%] md:left-0 w-full sm:max-w-[384px] right-0 md:max-w-max md:relative mt-8 md:mt-0 h-screen md:h-0 flex-col md:flex-row gap-7 ${isOpen ? "left-[0%]" : ""}`}>
           <ul className={`flex flex-col md:flex-row gap-7 text-stone-950 text-base font-normal items-start md:items-center ${inter.className}`}>
-            <li><Link href="">Home</Link></li>
-            <li><Link href="">Pricing</Link></li>
-            <li><Link href="">Legal</Link></li>
+            <li><Link onClick={handleClose} href="">Home</Link></li>
+            <li><Link onClick={handleClose} href="">Pricing</Link></li>
+            <li><Link onClick={handleClose} href="">Legal</Link></li>
           </ul>
           <div className={`flex items-center text-stone-950 text-base font-medium gap-2`}>
-            <Link className={`w-[107px] h-[49px] px-[20px] py-[15px] rounded-[10px] border border-stone-950 justify-center items-center gap-2.5 flex`} href="">Log In</Link>
-            <Link className={`w-[118px] h-[49px] text-neutral-100 px-[20px] py-[15px] bg-slate-500 rounded-[10px] border justify-center items-center gap-2.5 flex`} href="">
+            <Link onClick={handleClose} className={`w-[107px] h-[49px] px-[20px] py-[15px] rounded-[10px] border border-stone-950 justify-center items-center gap-2.5 flex`} href="">Log In</Link>
+            <Link onClick={handleClose} className={`w-[118px] h-[49px] text-neutral-100 px-[20px] py-[15px] bg-slate-500 rounded-[10px] border justify-center items-center gap-2.5 flex`} href="">
               Sign up
             </Link>
           </div>

@@ -5,7 +5,7 @@ import featuresImg from "../../../../assets/features_img.png"
 export default function Features() {
   return (
     <section className="mt-[60px] md:mt-[100px] lg:mt-[215px]">
-      <div className="inner_section border flex flex-col lg:flex-row gap-10 lg:gap-3 items-center justify-between">
+      <div className="inner_section flex flex-col lg:flex-row gap-10 lg:gap-3 items-center justify-between">
         <div className="w-full lg:w-[584px] flex-col justify-start items-start gap-5 flex">
             <h5 className={`px-5 py-2.5 bg-slate-100 rounded-[30px] border justify-center items-center gap-2.5 flex text-stone-950 text-base font-normal`}>
                 Features

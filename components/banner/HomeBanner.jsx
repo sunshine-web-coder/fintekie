@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function HomeBanner() {
   return (
-    <section className="mt-[100px] md:mt-[100px]">
+    <section className="mt-[100px]">
       <div className="inner_section">
         <div className="mb-[35px] md:mb-[50px]">
           <h2 className={`mx-auto max-w-[889px] text-center text-[48px] md:text-[64px] font-semibold leading-[58px] md:leading-[78px] text-stone-950`}>

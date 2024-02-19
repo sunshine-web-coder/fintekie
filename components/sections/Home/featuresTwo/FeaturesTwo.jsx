@@ -5,7 +5,7 @@ import featuresImg from "../../../../assets/features_img2.png"
 export default function FeaturesTwo() {
   return (
     <section className="mt-[60px] md:mt-[100px] lg:mt-[215px]">
-    <div className="inner_section border flex flex-col-reverse lg:flex-row gap-10 lg:gap-3 items-center justify-between">
+    <div className="inner_section flex flex-col-reverse lg:flex-row gap-10 lg:gap-3 items-center justify-between">
         <div className="w-full lg:w-[600px]">
           <Image src={featuresImg} width={5000} height={5000} className="w-[400px] sm:w-[500px] md:w-[600px] h-[400px] sm:h-[500px] lg:h-[650px] relative rounded-[20px]" alt="features image" />
       </div>
