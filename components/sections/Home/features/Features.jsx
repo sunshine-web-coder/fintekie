@@ -4,9 +4,9 @@ import featuresImg from "../../../../assets/features_img.png"
 
 export default function Features() {
   return (
-    <section className="mt-[100px] md:mt-[215px]">
-      <div className="inner_section flex flex-col md:flex-row gap-10 md:gap-3 items-center justify-between">
-        <div className="mx-auto max-w-[584px] md:w-[584px] flex-col justify-start items-start gap-5 flex">
+    <section className="mt-[60px] md:mt-[100px] lg:mt-[215px]">
+      <div className="inner_section border flex flex-col lg:flex-row gap-10 lg:gap-3 items-center justify-between">
+        <div className="w-full lg:w-[584px] flex-col justify-start items-start gap-5 flex">
             <h5 className={`px-5 py-2.5 bg-slate-100 rounded-[30px] border justify-center items-center gap-2.5 flex text-stone-950 text-base font-normal`}>
                 Features
             </h5>
@@ -14,7 +14,7 @@ export default function Features() {
                 <div className="self-stretch flex-col justify-start items-start gap-[30px] flex">
                     <div className="self-stretch flex-col justify-start items-start gap-[30px] flex">
                         <div className="self-stretch justify-center items-center flex">
-                            <div className={`grow shrink basis-0 text-stone-950 text-3xl md:text-5xl font-semibold`}>No preset spending Limit</div>
+                            <div className={`grow shrink basis-0 text-stone-950 text-3xl lg:text-5xl font-semibold`}>No preset spending Limit</div>
                         </div>
                     </div>
                     <div className="flex-col justify-start items-start gap-5 flex">
@@ -26,7 +26,7 @@ export default function Features() {
                                 </g>
                                 </svg>
                             </div>
-                            <div className={`text-stone-950 text-lg md:text-xl font-normal`}>Dynamic Spending Capacity</div>
+                            <div className={`text-stone-950 text-lg lg:text-xl font-normal`}>Dynamic Spending Capacity</div>
                         </div>
                         <div className="justify-start items-start gap-2.5 flex">
                             <div className="w-6 h-6 p-1 bg-slate-300 rounded-3xl border justify-center items-center gap-1 flex">
@@ -36,7 +36,7 @@ export default function Features() {
                                 </g>
                                 </svg>
                             </div>
-                            <div className={`grow shrink basis-0 text-stone-950 text-lg md:text-xl font-normal`}>Financial Freedom</div>
+                            <div className={`grow shrink basis-0 text-stone-950 text-lg lg:text-xl font-normal`}>Financial Freedom</div>
                         </div>
                         <div className="justify-start items-start gap-2.5 flex">
                             <div className="w-6 h-6 p-1 bg-slate-300 rounded-3xl border justify-center items-center gap-1 flex">
@@ -46,7 +46,7 @@ export default function Features() {
                                 </g>
                                 </svg>
                             </div>
-                            <div className={`text-stone-950 text-lg md:text-xl font-normal`}>Credit Responsibility</div>
+                            <div className={`text-stone-950 text-lg lg:text-xl font-normal`}>Credit Responsibility</div>
                         </div>
                     </div>
                 </div>
@@ -60,8 +60,8 @@ export default function Features() {
                 </Link>
             </div>
         </div>
-        <div className="mx-auto max-w-[600px] md:w-[600px]">
-            <Image src={featuresImg} width={5000} height={5000} className="w-[400px] sm:w-[500px] md:w-[600px] h-[400px] sm:h-[500px] md:h-[650px] relative rounded-[20px]" alt="features image" />
+        <div className="w-full lg:w-[600px]">
+            <Image src={featuresImg} width={5000} height={5000} className="w-[400px] sm:w-[500px] md:w-[600px] h-[400px] sm:h-[500px] lg:h-[650px] relative rounded-[20px]" alt="features image" />
         </div>
       </div>
     </section>

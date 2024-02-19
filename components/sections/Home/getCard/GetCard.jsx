@@ -6,7 +6,7 @@ import getCardAppleStoreImg from "../../../../assets/getCard-apple-store.png";
 
 export default function GetCard() {
   return (
-    <section className="mt-[100px] md:mt-[215px]">
+    <section className="mt-[60px] md:mt-[100px] lg:mt-[215px]">
       <div className="inner_section flex-col md:flex-row flex items-center justify-between gap-10 md:gap-3">
         <div className="flex mx-auto max-w-[584px] md:w-[584px] flex-col items-center justify-center md:items-start md:justify-start gap-5">
           <h5 className={`flex items-center justify-center gap-2.5 rounded-[30px] border bg-slate-100 px-5 py-2.5 text-base font-normal text-stone-950`}>

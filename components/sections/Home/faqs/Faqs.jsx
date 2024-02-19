@@ -12,7 +12,7 @@ export default function Faqs() {
   };
 
   return (
-    <section className="mt-[100px] md:mt-[200px]">
+    <section className="mt-[100px] lg:mt-[200px]">
       <div className="mx-auto max-w-[868px]">
         <div className="mx-auto flex max-w-[789px] flex-col gap-[10px]">
           <h5 className={`text-center text-3xl font-semibold md:text-5xl`}>
