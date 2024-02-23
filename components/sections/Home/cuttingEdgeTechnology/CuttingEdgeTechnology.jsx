@@ -22,7 +22,7 @@ export default function CuttingEdgeTechnology() {
         <div className="mt-[60px] md:mt-[100px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 border rounded-[20px] overflow-hidden">
           {cuttingEdgeTechData.map((data) => (
             <div key={data.title} className="flex w-full flex-col items-start justify-start gap-2.5 border border-b border-neutral-200 px-5 md:px-10 py-[40px] md:py-[60px]">
-              <div className="flex flex-col items-start justify-start gap-5 self-stretch">
+              <div className="flex flex-col items-center sm:items-start justify-center sm:justify-start gap-5 self-stretch">
                 <div className="flex items-center justify-center gap-2.5 rounded-[30px] border bg-slate-100 bg-opacity-50 px-5 py-2.5">
                   <h3 className={`text-base font-normal text-stone-950`}>
                     {data.sub}
@@ -30,12 +30,12 @@ export default function CuttingEdgeTechnology() {
                 </div>
                 <div className="flex flex-col items-start justify-start gap-2.5 self-stretch">
                   <div className="flex items-center justify-center self-stretch">
-                    <h5 className={`shrink grow basis-0 text-xl md:text-2xl font-semibold text-stone-950`}>
+                    <h5 className={`shrink grow basis-0 text-center sm:text-left text-xl md:text-2xl font-semibold text-stone-950`}>
                       {data.title}
                     </h5>
                   </div>
                   <div className="flex items-center justify-center gap-2.5 self-stretch">
-                    <p className={`shrink grow basis-0 text-lg md:text-xl font-normal text-zinc-600`}>
+                    <p className={`shrink grow basis-0 text-center sm:text-left text-lg md:text-xl font-normal text-zinc-600`}>
                       {data.desc}
                     </p>
                   </div>
