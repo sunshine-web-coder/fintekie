@@ -26,12 +26,12 @@ export default function Faqs() {
         </div>
         <div className="mx-auto mt-[60px] w-full">
           {accordionItems.map((item, index) => (
-            <div key={index} className="mb-2 rounded">
+            <div key={index} className="mb-[20px] rounded">
               <div
-                className="flex cursor-pointer items-center justify-between border-b h-[32px]"
+                className="flex cursor-pointer items-center justify-between border-b min-h-[32px]"
                 onClick={() => handleToggle(index)}
               >
-                <span className="text-xl">{item.title}</span>
+                <p className="text-xl max-w-[300px] sm:max-w-max ">{item.title}</p>
                 <span>
                   {openIndex === index ? (
                     <svg
@@ -64,7 +64,7 @@ export default function Faqs() {
                 </span>
               </div>
               {openIndex === index && (
-                <div className="pl-0 p-4">
+                <div className="pl-0 pb-0 p-4">
                   <p>{item.content}</p>
                 </div>
               )}

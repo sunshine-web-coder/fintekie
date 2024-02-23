@@ -13,7 +13,7 @@ export default function Insights() {
   };
   return (
     <section className="mt-[60px] md:mt-[100px] lg:mt-[200px]">
-      <div className="h-[960px mx-auto max-w-[1090px]">
+      <div className="mx-auto max-w-[1090px]">
         <div className="mx-auto flex h-[185px] max-w-[789px] flex-col items-center justify-start gap-5">
           <div className="flex items-center justify-center gap-2.5 rounded-[30px] border bg-slate-100 px-5 py-2.5">
             <h3 className={`text-base font-normal text-stone-950`}>Insights</h3>
@@ -37,7 +37,7 @@ export default function Insights() {
             </div>
           </div>
         </div>
-        <div className="mt-10 flex flex-col-reverse gap-[60px] md:gap-[100px] space-x-4">
+        <div className="mt-10 flex flex-col-reverse gap-[60px] md:gap-[100px]">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row md:gap-2">
             {tabsData.map((tab, index) => (
               <ToggleButton
